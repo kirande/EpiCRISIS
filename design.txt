@@ -1,2 +1,35 @@
-Something.
-Wicked this way comes.
+[1] Patient:
+	name: string
+	age: integer
+
+[2] Disease history discharge summary:
+
+	HEADER
+	Default information about hospital name, hospital ward etc. 
+
+	PATIENT INFO
+		Patient name - from [1]
+		Patient age - from [1]
+		Hospital admission number [numbers reset every year]
+		Date of admission:
+		Date of discharge:
+
+	DISEASE SUMMARY
+		Anamnesis
+		Status
+		Laboratory tests
+		ECG
+		Echo
+		Ro
+
+	ADDITIONAL
+		Consultations
+		Collegium
+
+	THERAPY
+		Already administrated
+		At the time of discharge
+
+	FOOTER
+		Chief of clinc
+		Personal doctor
